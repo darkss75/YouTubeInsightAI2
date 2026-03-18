@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0B0E14] text-[#E2E8F0] antialiased;
+  }
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply font-bold text-white mt-8 mb-4;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed text-gray-300;
+}
+
+.prose ul {
+  @apply list-disc pl-5 mb-4 text-gray-300;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#1A1F26];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#334155] rounded-full hover:bg-[#475569];
+}
