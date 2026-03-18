@@ -1,0 +1,5 @@
+{
+  "name": "유튜브 전략 컨설팅 AI",
+  "description": "YouTube Data API와 Gemini AI를 활용하여 채널 분석 및 맞춤형 운영 전략을 제공하는 컨설팅 도구입니다.",
+  "requestFramePermissions": []
+}
